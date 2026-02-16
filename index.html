@@ -34,7 +34,35 @@
 <body>
     <div class="container">
         <h1>LEDrand - LED Party</h1>
-        <p>This project is an "LED party" application, likely for controlling LEDs in a random or party-like fashion.</p>
+        <p>This project is a simple Arduino sketch designed to create a "party" effect with two LEDs by making them blink randomly.</p>
+
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Random Blinking:</strong> Two LEDs connected to specified pins will blink on and off at random intervals.</li>
+            <li><strong>Variable Delays:</strong> Each blink cycle includes a random delay between 100 and 1000 milliseconds, ensuring an unpredictable and dynamic light show.</li>
+            <li><strong>Hardware Setup:</strong> Designed for basic Arduino boards and two standard LEDs.</li>
+        </ul>
+
+        <h2>Hardware Requirements</h2>
+        <ul>
+            <li>An Arduino board (e.g., Arduino Uno, Nano, etc.)</li>
+            <li>Two LEDs</li>
+            <li>Two current-limiting resistors (typically 220 Ohm to 1k Ohm, depending on your LEDs)</li>
+            <li>Jumper wires</li>
+            <li>A breadboard (optional, for easier prototyping)</li>
+        </ul>
+
+        <h2>Wiring</h2>
+        <p>Connect your LEDs to digital pins 7 and 8 of your Arduino board. Ensure you use appropriate current-limiting resistors in series with each LED.</p>
+
+        <h2>How to Use</h2>
+        <ol>
+            <li><strong>Open the Sketch:</strong> Open the `LEDrand.ino` file in the Arduino IDE.</li>
+            <li><strong>Select Board and Port:</strong> Go to `Tools > Board` and select your Arduino board. Then, go to `Tools > Port` and select the serial port your Arduino is connected to.</li>
+            <li><strong>Upload:</strong> Click the "Upload" button (right arrow icon) in the Arduino IDE to compile and upload the sketch to your Arduino board.</li>
+            <li><strong>Enjoy the Party!</strong> The LEDs should start blinking randomly.</li>
+        </ol>
+
         <h2>Video Demonstration</h2>
         <video controls src="IMG_1636.MOV">
             Your browser does not support the video tag.
